@@ -8,6 +8,10 @@ export default function ToggleThemeButton() {
 
   const {toggleTheme, darkMode} = useContext(ThemeContext)
 
+  // const theme = useContext(ThemeContext)
+  // console.log(theme)
+  //On l'a supprimé pour faire du destructuring
+
   return (
     <button
     onClick={toggleTheme}
